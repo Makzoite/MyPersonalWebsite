@@ -1,21 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  Switch
+} from 'react-router-dom'
+import NavigationBar from './components/navigationbar';
+import Home from './components/home';
+
 import './App.css';
 
-function App() {
+class App extends Component {
+render(){
   return (
-    <div className="App">
-      <header>
-      <h1>Mahesh Raj Mainali</h1>
-      </header>
-      <section className="profile-main">
-      <h1>This is section.</h1>
-      </section>
-      <footer>
-      <h1>Contact me</h1>
-      </footer>
-    </div>
-  );
+      <div className="App">
+      <NavigationBar/>
+        <Router>
+          <Switch>
+            <Route exact path="/" component={Home}/>
+          </Switch>
+        </Router>
+      </div>
+    );
+  }
 }
 
 export default App;
