@@ -7,14 +7,14 @@ import {
 } from 'react-router-dom'
 import NavigationBar from './components/navigationbar';
 import Home from './components/home';
-
+import UnderMaintenance from './components/undermaintenance';
 import './App.css';
 
 class App extends Component {
 render(){
   return (
       <div className="App">
-      <NavigationBar/>
+      {/* <NavigationBar/>*/}
         <Router>
           <Switch>
             <Route exact path="/" component={Home}/>
