@@ -3,7 +3,7 @@
   height: 100%;
 }
 .content{
-  padding-top: 15vh;
+  padding-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
@@ -17,4 +17,30 @@
 }
 .p-message{
   font-style: italic;
+}
+.page-progress-bar{
+  height:20px;
+  width:300px;
+  padding: 3px;
+  background:#22333b;
+  margin:0 auto;
+  border-radius:5px;
+  position: relative;
+}
+.progress-percentage{
+  height: 100%;
+  width: 18%;
+  background: red;
+  border-radius:2px;
+}
+.text-progress-bar{
+  color: white;
+  position: absolute;
+  font-size: 14px;
+  width: 100%;
+}
+.what-complete{
+  font-weight: bold;
+  padding: 10px;
+  margin: 0;
 }

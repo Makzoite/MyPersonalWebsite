@@ -1,0 +1,20 @@
+.custom-bg{
+  position: relative !important;
+}
+
+.download-button{
+  background: rgba(120, 71, 56, 1);
+  z-index: 100;
+  float: right;
+  border-radius: 25px;
+  padding: 8px;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+  margin-bottom: 6px;
+}
+
+.download-button > a {
+  color: inherit;
+  text-decoration: none;
+}

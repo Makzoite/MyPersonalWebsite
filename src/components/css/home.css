@@ -10,18 +10,17 @@
 .trans-bg {
   height: 100%;
   width: 100%;
-  background: #22333b;
+  background: #324A56;
 }
 
 .container-main {
-  height: 100vh;
-padding-top: 2%;
-text-align: center;
+  padding-top: 2%;
+  text-align: center;
 }
 .img-profile{
   border-radius: 50%;
-  margin:30px;
-  width: 300px;
+  margin-top:60px;
+  width: 250px;
 }
 
 .detail-profile{
@@ -43,19 +42,17 @@ text-align: center;
 }
 .container-scroll{
   position: fixed;
-  width: 100%;
   display: none;
 }
-.image-logo{
-  margin: 20px;
-  height: 80px;
-  width: 80px;
+/*.image-logo{
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 8vw;
   float: left;
-}
+}*/
 .detail-profile-fixed{
   float: right;
-  margin: 20px;
-
+  padding: 4vw;
 }
 .detail-profile-fixed p{
   font-family: Courier;
@@ -66,20 +63,31 @@ text-align: center;
   margin-top:20px;
   text-align: right;
 }
-
+.social-scroll > div{
+  margin-top:10px;
+}
 .second-container{
-  height: 100vh;
-  background-color: #5a352a;
+  min-height: 100vh;
+  background-color: #784738;
+  padding: 5% 15%;
+  text-align: justify;
+}
+.about > h1, .about > p{
+  color: #E3CCC6;
+  font-family: Courier;
 }
 
 .container-scroll-fadeIn{
     display: block;
-    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1s; /* Firefox < 16 */
-        -ms-animation: fadein 1s; /* Internet Explorer */
-         -o-animation: fadein 1s; /* Opera < 12.1 */
-            animation: fadein 1s;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
+
+
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
@@ -107,4 +115,41 @@ text-align: center;
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+
+.container-main-fadeOut{
+  -webkit-animation: fadeout 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadeout 2s; /* Firefox < 16 */
+      -ms-animation: fadeout 2s; /* Internet Explorer */
+       -o-animation: fadeout 2s; /* Opera < 12.1 */
+          animation: fadeout 2s;
+}
+@keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
 }
