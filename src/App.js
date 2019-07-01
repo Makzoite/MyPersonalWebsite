@@ -7,6 +7,7 @@ import {
 /*import NavigationBar from './components/navigationbar';*/
 import Home from './components/home';
 import Blog from './components/blog';
+import Contacts from "./components/contacts";
 import UnderMaintenance from './components/undermaintenance';
 import Spinner from './components/spinner';
 import Resume from './components/resume';
@@ -20,11 +21,12 @@ render(){
         <Router>
           <Switch>
             <Route exact path="/" component={UnderMaintenance}/>
-            <Route path="/home" component={Home}/>
-            <Route path="/blog" component={Blog}/>
-            <Route path="/underconstruction" component={UnderMaintenance}/>
-            <Route path="/spinner" component={Spinner}/>
-            <Route path="/resume" component={Resume}/>
+            <Route exact path="/home" component={Home}/>
+            <Route exact path="/blog" component={Blog}/>
+            <Route exact path="/underconstruction" component={UnderMaintenance}/>
+            <Route exact path="/spinner" component={Spinner}/>
+            <Route exact path="/resume" component={Resume}/>
+            <Route exact path="/contacts" component={Contacts}/>
           </Switch>
         </Router>
       </div>

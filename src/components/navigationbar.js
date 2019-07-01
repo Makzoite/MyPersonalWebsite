@@ -36,7 +36,7 @@ render(){
             <Nav.Link href="/">Portfolio</Nav.Link>
             <Nav.Link href="/#blog">Blog</Nav.Link>
             <Nav.Link href="#resume">Resume</Nav.Link>
-            <Nav.Link href="/">Contact</Nav.Link>
+            <Nav.Link href="/#contacts">Contact</Nav.Link>
             <NavDropdown title="Extra Pages" id="basic-nav-dropdown">
               <NavDropdown.Item href="/#spinner">Spinner Page</NavDropdown.Item>
               <NavDropdown.Item href="#">404 Page</NavDropdown.Item>

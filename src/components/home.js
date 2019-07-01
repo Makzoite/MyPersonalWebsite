@@ -110,8 +110,12 @@ render(){
             <a href="https://www.linkedin.com/in/mahesh-raj-mainali/" className="icon-click"><FontAwesomeIcon size="3x" color='#f8f4a6' icon={faLinkedin} className="fa-social"/></a>
             <a href="https://github.com/Makzoite/" className="icon-click"><FontAwesomeIcon size="3x" color='#f8f4a6' icon={faGithub}/></a>
             </div>
+            <div className="arrow-wrapper">
+            <div className="arrow bounce" onClick={this.scrollToMyRef}></div>
+            </div>
           {/*</ScrollAnimation>*/}
         </div>
+
         <div ref={this.myRef} className="second-container">
           <div className="about">
             <h1>About Me</h1>

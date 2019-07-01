@@ -16,7 +16,7 @@ render(){
           <p>Email here: <a href="mailto:developer@maheshrajmainali.com.np">developer@maheshrajmainali.com.np</a></p>
         </div>
         <div className="page-progress-bar">
-          <h2 className="text-progress-bar">18% Work Completed</h2>
+          <h2 className="text-progress-bar">60% Work Completed</h2>
           <div className="progress-percentage">
           </div>
         </div>
